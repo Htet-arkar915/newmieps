@@ -1,3 +1,11 @@
+// JavaScript for menu icon functionality
+const menuIcon = document.querySelector(".menu-icon");
+const menu = document.querySelector(".menu");
+
+menuIcon.addEventListener("click", function () {
+  menuIcon.classList.toggle("active");
+  menu.classList.toggle("active");
+});
 let slideIndex = 0;
 showSlides();
 
@@ -19,12 +27,3 @@ function showSlides() {
   dots[slideIndex - 1].className += " active";
   setTimeout(showSlides, 10000); // Change image every 2 seconds
 }
-
-// JavaScript for menu icon functionality
-const menuIcon = document.querySelector(".menu-icon");
-const menu = document.querySelector(".menu");
-
-menuIcon.addEventListener("click", function () {
-  menuIcon.classList.toggle("active");
-  menu.classList.toggle("active");
-});
