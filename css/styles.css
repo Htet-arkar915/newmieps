@@ -202,7 +202,7 @@ body {
 .research-content .research ul li{
   width: 49%;
   margin-right: 10px;
-  margin-left: 10px;
+  
   text-align: start;
 }
 .research ul li img{
@@ -222,18 +222,28 @@ body {
 .dis-content{
   width: 80%;
   margin: 0 auto;
+  color: rgb(19, 19, 79);
   text-align: start;
 }
 .dis-content .content{
   display: flex;
+  
+}
+.dis-content h4{
+  padding-top: 10px;
 }
 .dis-content .content .dis-list{
   width: 50%;
+  margin-bottom: 10px;
   padding-left: 40px;
 }
 .dis-content .content .division{
   width: 50%;
   padding-left: 40px;
+}
+.dis-content .content{
+  margin-top: 10px;
+
 }
  .footer {
   display: flex;
