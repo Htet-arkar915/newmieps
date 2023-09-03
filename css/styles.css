@@ -214,6 +214,27 @@ body {
   color: white;
   font-size: 16px;
 }
+.disciplines{
+  width: 100%;
+  margin: 0 auto;
+  background-color: aliceblue;
+}
+.dis-content{
+  width: 80%;
+  margin: 0 auto;
+  text-align: start;
+}
+.dis-content .content{
+  display: flex;
+}
+.dis-content .content .dis-list{
+  width: 50%;
+  padding-left: 40px;
+}
+.dis-content .content .division{
+  width: 50%;
+  padding-left: 40px;
+}
  .footer {
   display: flex;
 
