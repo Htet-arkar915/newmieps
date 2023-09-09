@@ -29,11 +29,11 @@ body {
   margin-top: 250px;
 }
 .header-text h1 {
-  color: #f9ef34;
-  font-size: 22px;
+  color: #fff;
+  font-size: 30px;
 }
 .home-welcome {
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -109,7 +109,7 @@ body {
 
 .menu li {
   margin-right: 8px;
-  margin-left: 8px;
+  margin-left: 30px;
   text-align: left;
 }
 
@@ -123,10 +123,11 @@ body {
 
 .content {
   width: 100%;
+  background-color: #154c79;
 }
 .content .vision,
 .content .mission {
-  width: 80%;
+  width: 100%;
 
   margin: 0 auto;
 }
@@ -145,16 +146,17 @@ body {
 }
 .about {
   width: 100%;
-  margin-top: 20px;
+
   background-color: #fff;
 }
 .inner-about {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 .inner-about h2 {
   padding-top: 20px;
   text-align: start;
+  margin-left: 10%;
 }
 .inner-about p {
   padding-top: 10px;
@@ -162,9 +164,11 @@ body {
   font-size: 18px;
   text-align: justify;
   text-justify: inter-word;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .inner-about img {
-  width: 100%;
+  width: 80%;
 }
 .home-research {
   background-color: #272626;
@@ -224,22 +228,22 @@ body {
   color: rgb(19, 19, 79);
   text-align: start;
 }
-.dis-content .content {
+.dis-content .dcontent {
   display: flex;
 }
 .dis-content h4 {
   padding-top: 10px;
 }
-.dis-content .content .dis-list {
+.dis-content .dcontent .dis-list {
   width: 50%;
   margin-bottom: 10px;
   padding-left: 40px;
 }
-.dis-content .content .division {
+.dis-content .dcontent .division {
   width: 50%;
   padding-left: 40px;
 }
-.dis-content .content {
+.dis-content .dcontent {
   margin-top: 10px;
 }
 .footer {
