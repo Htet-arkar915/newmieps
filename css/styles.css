@@ -559,7 +559,7 @@ p {
   width: 100%;
   overflow: auto;
   height: 200px;
-  margin-left: 4px;
+
   margin-top: 4px;
 }
 .notice-content .notice .list::-webkit-scrollbar {
@@ -571,6 +571,7 @@ p {
 .notice ul li {
   padding: 4px;
   margin: 1;
+  margin-top: 10px;
   border-bottom: solid 1px white;
 }
 .notice ul li h4 {
@@ -609,6 +610,7 @@ p {
   margin: 4px;
   border-bottom: solid 1px white;
   background-color: #154c79;
+  margin-top: 10px;
 }
 .news ul li h4 {
   color: #fff;
@@ -635,6 +637,7 @@ p {
   margin-top: 60px;
   background-color: #154c79;
   color: #fff;
+  cursor: pointer;
   border-radius: 8px;
 }
 .third-content {
